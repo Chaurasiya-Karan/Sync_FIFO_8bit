@@ -61,7 +61,7 @@ This modular structure isolates logic, simplifying testing and future extension.
 
 ## 🛠️ Running Simulation
 
-1. Load `fifo_tb.v` into your Verilog simulator (e.g., ModelSim, Vivado).
+1. Load `fifo_tb.v` into your Verilog simulator (e.g. Vivado).
 2. Run the simulation which will:
    - Reset FIFO and initialize signals
    - Write 8 incremental data values to FIFO
@@ -92,7 +92,7 @@ Time=230 | write=0 read=1 data_in=07 data_out=00 full=0 empty=0
 ## 🙌 About the Author
 
 Chaurasiya Karan — Digital design enthusiast focusing on robust, reusable hardware IP development.  
-Connect on [LinkedIn](chaurasiya-karan)| 
+Connect on [LinkedIn](https://www.linkedin.com/in/chaurasiya-karan-662a0426b/)| 
 
 
 ---
