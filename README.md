@@ -105,4 +105,4 @@ Connect on [LinkedIn](https://www.linkedin.com/in/chaurasiya-karan-662a0426b/)|
 
 ---
 
-_This project demonstrates professional hardware design skills with clear modularity, correctness, and real-world applicability, making it a strong addition to your HDL portfolio._
+_This project demonstrates professional hardware design skills with clear modularity, correctness, and real-world applicability, making it a strong addition to my HDL portfolio._
