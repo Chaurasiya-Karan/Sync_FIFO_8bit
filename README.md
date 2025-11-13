@@ -1,4 +1,4 @@
-# 🚀 8-bit Synchronous FIFO Design in Verilog
+# 8-bit Synchronous FIFO Design in Verilog
 
 > Modular, simulation-proven, synchronous FIFO memory with full/empty flags — a core building block for high-performance digital systems.
 
