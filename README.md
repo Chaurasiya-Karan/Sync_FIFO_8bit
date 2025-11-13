@@ -4,13 +4,13 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project delivers a clean, modular 8-bit synchronous FIFO implemented in Verilog HDL. Designed with separate memory and control modules, it ensures scalable, reusable, and maintainable hardware IP suitable for FPGA or ASIC environments. The FIFO supports simultaneous read/write operations controlled by validated full and empty flags, ensuring data integrity in streaming or buffering applications.
 
 ---
 
-## 🏗️ Architecture & Modules
+## Architecture & Modules
 
 The design splits responsibilities into three focused modules:
 
@@ -22,7 +22,7 @@ This modular structure isolates logic, simplifying testing and future extension.
 
 ---
 
-## 🚩 Key Features
+## Key Features
 
 - **Width & Depth**: 8 bits wide, 8 entries deep FIFO buffer
 - **Flags**: Full and empty indicators to prevent overflow and underflow
@@ -33,7 +33,7 @@ This modular structure isolates logic, simplifying testing and future extension.
 
 ---
 
-## 📂 File Layout
+## File Layout
 
 | Filename      | Role                                    |
 |---------------|-----------------------------------------|
@@ -44,7 +44,7 @@ This modular structure isolates logic, simplifying testing and future extension.
 
 ---
 
-## 🔌 Interface Signals of `fifo_top`
+## Interface Signals of `fifo_top`
 
 | Signal         | Type   | Description                        |
 |----------------|--------|----------------------------------|
@@ -59,7 +59,7 @@ This modular structure isolates logic, simplifying testing and future extension.
 
 ---
 
-## 🛠️ Running Simulation
+## Running Simulation
 
 1. Load `fifo_tb.v` into your Verilog simulator (e.g. Vivado).
 2. Run the simulation which will:
@@ -80,7 +80,7 @@ Time=230 | write=0 read=1 data_in=07 data_out=00 full=0 empty=0
 
 ---
 
-## 🔍 Design Insights & Extensions
+## Design Insights & Extensions
 
 - **Scalability**: Extend by increasing pointer widths and memory size.
 - **Parameterization**: Modify modules for generic data widths and depths.
@@ -89,7 +89,7 @@ Time=230 | write=0 read=1 data_in=07 data_out=00 full=0 empty=0
 
 ---
 
-## 🙌 About the Author
+## About the Author
 
 Chaurasiya Karan — Digital design enthusiast focusing on robust, reusable hardware IP development.  
 Connect on [LinkedIn](https://www.linkedin.com/in/chaurasiya-karan-662a0426b/)| 
